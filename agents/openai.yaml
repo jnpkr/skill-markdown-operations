@@ -1,7 +1,7 @@
 interface:
   display_name: "Markdown Operations"
-  short_description: "Route Markdown work by filesystem context"
-  default_prompt: "Use $markdown-operations to determine the target Markdown context and apply the appropriate workflow."
+  short_description: "Detect Obsidian context for Markdown files"
+  default_prompt: "Use $markdown-operations to determine whether the target Markdown path is inside an Obsidian vault."
 
 policy:
   allow_implicit_invocation: true
