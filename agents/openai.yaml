@@ -1,0 +1,7 @@
+interface:
+  display_name: "Markdown Operations"
+  short_description: "Route Markdown work by filesystem context"
+  default_prompt: "Use $markdown-operations to determine the target Markdown context and apply the appropriate workflow."
+
+policy:
+  allow_implicit_invocation: true
